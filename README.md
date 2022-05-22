@@ -7,8 +7,6 @@ This is a solution to the [Interactive rating component challenge on Frontend Me
 - [Overview](#overview)
   - [The challenge](#the-challenge)
   - [Screenshot](#screenshot)
-  - [Links](#links)
-- [My process](#my-process)
   - [Built with](#built-with)
   - [Useful resources](#useful-resources)
 - [Author](#author)
@@ -29,14 +27,8 @@ Users should be able to:
 ### Screenshot
 
 ![](./Screenshot%202022-05-22%20at%2017.36.26.png)
+
 ![](./Screenshot%202022-05-22%20at%2017.36.29.pngpng)
-
-### Links
-
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
-
-## My process
 
 ### Built with
 
@@ -51,10 +43,10 @@ Users should be able to:
 
 ### Useful resources
 
-- [Resource 1](https://www.google.com)
+- [Crazy-mate](https://www.google.com)
 
 ## Author
 
-- Website - [Add your name here](https://github.com/NoLongerAvailable)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/NoLongerAvailable)
-- Twitter - [@yourusername](https://twitter.com/Maksim34474252)
+- Website - [Max](https://github.com/NoLongerAvailable)
+- Frontend Mentor - [@NoLongerAvailable](https://www.frontendmentor.io/profile/NoLongerAvailable)
+- Twitter - [@Maksim34474252](https://twitter.com/Maksim34474252)
