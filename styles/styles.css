@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap');
+
+:root {
+    --white: hsl(0, 0%, 100%);
+    --light-grey: hsl(217, 12%, 63%);
+    --medium-grey: hsl(216, 12%, 54%, 0.1);
+    --dark-blue: hsl(213, 19%, 18%, 0.8);
+    --very-dark-blue: hsl(216, 12%, 8%);
+    --orange: hsl(21, 98%, 51%);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Overpass', sans-serif;
+    background-color: var(--very-dark-blue);
+    overflow-y: hidden;
+}
+/* card How did we do? */
+.card1, .card2 {
+    background-color: var(--dark-blue);
+    margin: 1.45rem;
+    padding: 1.5rem;
+    border-radius: 1rem;
+}
+/* div with img */
+.star-corner {
+    background-color: var(--medium-grey);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 2.5rem;
+    aspect-ratio: 1/1;
+    border-radius: 50%;    
+}
+
+/* div with img */
+.img-card2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0.6rem;
+}
+
+/* img thank you */
+
+.img-thank-you {
+    width: 9rem;
+}
+
+/* text-card 1 */
+
+.text-card1, .text-card2 {
+    color: var(--light-grey);
+    margin-top: 0.8rem;
+    font-size: 0.88rem;
+    line-height: 1.6;
+}
+
+.text-card2 {
+    text-align: center;
+    margin-top: 0.7rem
+}
+
+.h1 {
+    color: var(--white);
+    font-size: 1.49rem;
+    margin-top: 1.18rem;
+}
+
+.h1-card2 {
+    text-align: center;
+    margin-top: 1.65rem;
+}
+
+.ratings {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+
+/* text YOu selected 3 out of 5  bla bla bla*/
+
+.selected-num {
+    color: var(--orange);
+    padding: 0.45rem;
+    background-color: var(--medium-grey);
+    margin: 1.5rem 3.5rem 0rem 3.5rem;
+    text-align: center;
+    font-size: 0.88rem;
+    border-radius: 2rem;
+}
+
+.btn {
+    width: 2.5rem;
+    aspect-ratio: 1/1;
+    background-color: var(--medium-grey);
+    color: var(--light-grey);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    margin-top: 1.6rem;
+    font-size: 0.9rem;
+}
+
+.btn:hover {
+    background-color: var(--orange);
+    color: var(--white);
+    cursor: pointer;
+}
+
+.submit-btn:hover {
+    color: var(--orange);
+    background-color: var(--white);
+    cursor: pointer;
+}
+
+.number-in-btn {
+    transform: translateY(0.1rem);
+}
+
+.submit-btn {
+    text-transform: uppercase;
+    background-color: var(--orange);
+    color: var(--white);
+    letter-spacing: 0.2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.85rem;
+    margin-top: 1.55rem;
+    border-radius: 2rem;
+    font-size: 0.8rem;
+    font-weight: 700;
+}
+
+.active {
+    background-color: var(--light-grey);
+    color: var(--white);
+}
+
+.submit-text {
+    transform: translateY(0.05rem);
+    text-align: center;
+}
+
+.hide {
+    display: none;
+}
+
+@media screen and (max-width: 1440px) {
+    .card1, .card2 {
+        width: 22rem;
+    }
+}
+
+.attribution {
+    display: block;
+        font-size: 11px;
+        text-align: center
+}
+.attribution a {
+        color: hsl(228, 45%, 44%);
+}
