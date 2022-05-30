@@ -1,5 +1,7 @@
 # Frontend Mentor - Interactive rating component solution
 
+- URL - https://americaburger.github.io/ircomponent/
+
 This is a solution to the [Interactive rating component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/interactive-rating-component-koxpeBUmI). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
 
 ## Table of contents
@@ -47,6 +49,6 @@ Users should be able to:
 
 ## Author
 
-- Website - [Max](https://github.com/NoLongerAvailable)
+- Website - [AmericaBurger] (https://github.com/AmericaBurger)
 - Frontend Mentor - [@NoLongerAvailable](https://www.frontendmentor.io/profile/NoLongerAvailable)
 - Twitter - [@Maksim34474252](https://twitter.com/Maksim34474252)
